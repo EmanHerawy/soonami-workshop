@@ -1,77 +1,8 @@
-<!-- TITLE -->
-<p align="center"> 
-  <img width="100px" src="https://github.com/celo-org/celo-composer/blob/main/images/readme/celo_isotype.svg" align="center" alt="Celo" />
- <h2 align="center">Celo Composer</h2>
- <p align="center">Build, deploy, and iterate quickly on decentralized applications using Celo.</p>
-</p>
-  <p align="center">
-    <a href="https://github.com/celo-org/celo-composer/graphs/stars">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/stars/celo-org/celo-composer?color=FCFF52" />
-    </a>
-    <a href="https://github.com/celo-org/celo-composer/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/celo-org/celo-composer?color=E7E3D4" />
-    </a>
-    <a href="https://github.com/celo-org/celo-composer/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/celo-org/celo-composer?color=E7E3D4" />
-    </a>
-    <a href="https://github.com/celo-org/celo-composer/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/celo-org/celo-composer?color=E7E3D4" />
-    </a>
-    <a href="https://opensource.org/license/mit/">
-      <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-    </a>
-  </p>
-</p>
 
-<!-- TABLE OF CONTENTS -->
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
-<!-- ABOUT THE PROJECT -->
 
-## About The Project
-
-Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Built With
-
-Celo Composer is built on Celo to make it simple to build dApps using a variety of front-end frameworks, and libraries.
-
-- [Celo](https://celo.org/)
-- [Solidity](https://docs.soliditylang.org/en/v0.8.19/)
-- [Next.js](https://nextjs.org/)
-- [React.js](https://reactjs.org/)
-- [Material UI](https://mui.com/)
-- [React Native](https://reactnative.dev/)
-- [Flutter](https://docs.flutter.dev/)
-- [React-celo](https://github.com/celo-org/react-celo/)
-- [Rainbowkit-celo](https://github.com/celo-org/rainbowkit-celo)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+# kickstart your hackathon project with celo composer
 
 <!-- GETTING STARTED -->
 
@@ -79,6 +10,7 @@ Celo Composer is built on Celo to make it simple to build dApps using a variety 
 
 - Node
 - Git (v2.38 or higher)
+- Metamask wallet installed 
 
 ## How to use Celo Composer
 
@@ -109,89 +41,131 @@ npx @celo/celo-composer@latest create
 ![Celo Composer dApp name](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_5.png?raw=true)
 
 **_🔥Voila, you have a dApp ready to go. Voila, you have a dApp ready to go. Start building your dApp on Celo._**
+![Alt text](image-1.png)
 
-### Getting started
 
-Once your custom dApp has been created, just install dependencies, either with `yarn` or `npm i`, and run the respective script from the `package.json` file.
-## Supported Frameworks
+## Built With
 
-### React
+Celo Composer is built on Celo to make it simple to build dApps using a variety of front-end frameworks, and libraries.
 
-- Support for Website and Progressive Web Application.
-- Works with all major crypto wallets.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/react-app/README.md) to learn more about.
-
-### React Native
-
-- Out of the box config, just focus on buidl.
-- Support for Android and IOS.
-- Works with and without [Expo](https://expo.dev/).
-- Working example app included.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/react-native-app/README.md) to learn more about.
-
-### Flutter
-
-- One command to get started - Type `flutter run` to start development in your mobile phone.
-- Works with all major mobile crypto wallets.
-- Support for Android, IOS (Web, Windows, and Linux coming soon).
-- Working example app included.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/flutter-app/README.md) to learn more about.
-
-### Angular
-
-- Support for Website and Progressive Web Application.
-- Works with all major crypto wallets.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/angular-app/README.md) to learn more about.
-
-<!-- USAGE EXAMPLES -->
-
-## 🔭 Learning Solidity
-
-📕 Read the docs: <https://docs.soliditylang.org>
-
-- [Primitive Data Types](https://solidity-by-example.org/primitives/)
-- [Mappings](https://solidity-by-example.org/mapping/)
-- [Structs](https://solidity-by-example.org/structs/)
-- [Modifiers](https://solidity-by-example.org/function-modifier/)
-- [Events](https://solidity-by-example.org/events/)
-- [Inheritance](https://solidity-by-example.org/inheritance/)
-- [Payable](https://solidity-by-example.org/payable/)
-- [Fallback](https://solidity-by-example.org/fallback/)
-
-📧 Learn the [Solidity globals and units](https://solidity.readthedocs.io/en/v0.8.19/units-and-global-variables.html)
-
-## Support
-
-Join the Celo Discord server at <https://chat.celo.org>. Reach out on the dedicated repo channel [here](https://discord.com/channels/600834479145353243/941003424298856448).
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-See the [open issues](https://github.com/celo-org/celo-composer/issues) for a full list of proposed features (and known issues).
+- [Celo](https://celo.org/)
+- [Solidity](https://docs.soliditylang.org/en/v0.8.19/)
+- [Next.js](https://nextjs.org/)
+- [React.js](https://reactjs.org/)
+- [Material UI](https://mui.com/)
+- [React Native](https://reactnative.dev/)
+- [Flutter](https://docs.flutter.dev/)
+- [React-celo](https://github.com/celo-org/react-celo/)
+- [Rainbowkit-celo](https://github.com/celo-org/rainbowkit-celo)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+# Explore your project
 
-## Contributing
+ - your project directory should look like this
+   - packages
+     - hardhat
+     -  react-app
+  -  package.json
+  -  readme.md
 
-We welcome contributions from the community.
+ Navigate to your project  directory and run the following commands to install the dependencies: 
+```bash
+npm install
+```
+or 
+```bash
+yarn install
+```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Prepare your Smart contracts  [hardhat folder]
 
-## License
+### What do you have in your smart contract directory?
+- `contracts` directory contains the smart contracts out of the box that you can use to build your dApp.
+  - ERC20.sol
+  - ERC721.sol
+  - ERC1155.sol
+  - Greeter.sol
+  - Storage.sol
+- `deploy` directory contains the deployment scripts for your smart contracts.
+  - 00-greeter.js
+  - 01-storage.js
+  - 02-erc20.js
+  - 03-erc721.js
+  - 04-erc1155.js
+- `scripts` directory contains the scripts to deploy your smart contracts to blockchain.
+  - sample-script.js
+  - watch.js
+- `test` directory contains the tests for your smart contracts.
+- `hardhat.config.js` is the configuration file for your smart contract project.
+- `package.json` is the package file for your smart contract project.
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+### Steps to deploy your smart contract to blockchain, Celo Alfajores testnet in this case.
+#### Before shipping your smart contract to testnet or mainnet, you need to do the following:
+-  Create a `.env` file in the root directory of your project. Add the following environment-specific variables on new lines in the form of NAME=VALUE:
+```
+PRIVATE_KEY=YOUR_PRIVATE_KEY
+# optional
+CELOSCAN_API_KEY=YOUR_CELOSCAN_API_KEY
+MNEMONIC=YOUR_MNEMONIC
+```
 
-<!-- CONTACT -->
-## Contact
+  - How to get you private key?
+    - There are many ways to get your account private key :
+    - From wallet e.g Metamask 
+         
+         ![Alt text](image-2.png)  ![Alt text](image-3.png)
 
-- [@CeloDevs](https://twitter.com/CeloDevs)
-- [Discord](https://discord.com/invite/celo)
+      - From hardhat : run the following command
+        ```bash
+        npm run hardhat:create-account
+        ```
+    
+        
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+  - Deploy your contracts locally 
+    - Start your local node: Run the following command in separated terminal to start your local node.
+    ```bash
+    npm run hardhat:devchain
+    ```
+  - Compile and deploy your contract:
+    - you can add this command to the package.json script or run the following command in your terminal to compile and deploy your contract to local node.
+    ```bash 
+    #navigate to packages/hardhat directory
+    npx hardhat deploy --network hardhat 
+    ```
+- Testing : run the following command in your terminal to test your smart contract.
+  ```bash
+  npm run hardhat:test-local
+  ```
+  **Note: Remove `oracle-test.js`** file. no oracle contract to test.
+
+  #### Start shipping your contracts to Celo Alfajores testnet 
+- Fund your wallet to be able to send transactions on Celo Alfajores testnet. You can get free testnet tokens from [Celo Faucet](https://faucet.celo.org/alfajores).
+  - Copy your wallet address from Metamask and paste it in the Celo Faucet. Or run the following command in your terminal to get your wallet address.  
+   ```bash
+  npm run hardhat:accounts
+  #or
+  yarn run hardhat:accounts 
+
+  ```
+    - Without funding your wallet, you will get the following error when you try to deploy your smart contract to blockchain.
+    ```bash
+        Error: insufficient funds for intrinsic transaction cost
+        ```
+
+- Testing : run the following command in your terminal to test your smart contract.
+  ```bash
+  npm run hardhat:test
+  ```
+- Compile and deploy your contract: Run the following command in your terminal to compile and deploy your contract to local node.
+    ```bash 
+    npm run hardhat:deploy
+    ```
+
+
+
+## Prepare your Front end [react-app folder]
+
+
+
