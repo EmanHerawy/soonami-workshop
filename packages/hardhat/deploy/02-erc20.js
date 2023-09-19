@@ -12,10 +12,10 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
         log: true,
     });
 
-    let erc20 = await ethers.getContractAt("ERC20", ERC20.address);
+    // let erc20 = await ethers.getContractAt("ERC20", ERC20.address);
 
-    let allowance = await erc20.allowance(erc20.address, alice);
-    console.log(allowance);
+    // let allowance = await erc20.allowance(erc20.address, alice);
+    // console.log(allowance);
 };
 
 module.exports.tags = ["ERC20"];
