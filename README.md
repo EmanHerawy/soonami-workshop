@@ -192,7 +192,7 @@ MNEMONIC=YOUR_MNEMONIC
 ## run your app locally
 - First , Wallet-connect requires getting `projectId` 
   - Create `.env` file 
-  - add projectId  
+  - add projectId  : With the newest update, every dApp that relies on WalletConnect now needs to obtain a projectId from [WalletConnect Cloud](https://cloud.walletconnect.com/sign-in). This is absolutely free and only takes a few minutes.
    ```
    NEXT_PUBLIC_WC_PROJECT_ID=YOUR_PROJECT_ID
     ```
