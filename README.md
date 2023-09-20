@@ -41,7 +41,7 @@ npx @celo/celo-composer@latest create
 ![Celo Composer dApp name](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_5.png?raw=true)
 
 **_🔥Voila, you have a dApp ready to go. Voila, you have a dApp ready to go. Start building your dApp on Celo._**
-![Alt text](image-1.png)
+![Alt text](./asset/image-1.png)
 
 
 ## Built With
@@ -114,7 +114,7 @@ MNEMONIC=YOUR_MNEMONIC
     - There are many ways to get your account private key :
     - From wallet e.g Metamask 
          
-         ![Alt text](image-2.png)  ![Alt text](image-3.png)
+         ![Alt text](./asset/image-2.png)  ![Alt text](./asset/image-3.png)
 
          **Note:** : you will enter your wallet password to get the private key.
 
