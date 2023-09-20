@@ -204,7 +204,7 @@ yarn run react-app:dev
 ## Out of the box  Web3 related code 
 Your app already have the main web3 configuration that you need to start with :
 - In `_app.tsx` file has all the required configuration to let your app connect to celo network and manage your wallet. 
-  - In the selected framework we are using `Wagmi` aand `RainbowKitProvider` and the configuration is passed though  React Context. If you select a different framework you will get different configuration.
+  - In the selected framework we are using [`Wagmi`](https://wagmi.sh/) and `[RainbowKitProvider](https://www.rainbowkit.com/docs/installation)` and the configuration is passed though  React Context. If you select a different framework you will get different configuration.
   ```typescript
       <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider chains={chains} appInfo={appInfo} coolMode={true}>
@@ -220,11 +220,18 @@ Your app already have the main web3 configuration that you need to start with :
 - In `index.tsx` file you can find the code to connect your wallet and get the current user address.
   ```typescript
 
-
+    // to get the current user address, you need to import useAccount from wagmi package.
      import { useAccount } from "wagmi";
-    const { address, isConnected } = useAccount();
 
+
+     // in your component, you can use the hook to get the current user address.
+    const { address, isConnected } = useAccount();
+      
+      const [userAddress, setUserAddress] = useState("");
+
+  // once the user is connected and address is not empty, you can set the user address.
   useEffect(() => {
+  
     if (isConnected && address) {
       setUserAddress(address);
     }
@@ -292,7 +299,7 @@ import Greeter from "../contracts/Greeter.json";
 
 
 ## interacting with the Dapp 
-- make sure you added the network that your contract operates on. 
+- Make sure you added the network that your contract operates on. 
   - To add it , the easies way is through https://chainlist.org/ 
   - If you didn't find the network you are looking for, you can add it manually.
     - open your wallet and click on setting.
@@ -304,5 +311,9 @@ import Greeter from "../contracts/Greeter.json";
     - Add the block explorer url.
     - Click on `save` button.
 
-
+## check your transaction on block explorer
+- You can check your transaction on block explorer by clicking on `view on block explorer` if you are using metamask.
+    ![Alt text](./asset/image.png)
+- You can check your transaction on block explorer by checking transaction hash or searching for the address ( wallet  address or contract address) in the block explorer ad check the address transactions history by
+![Alt text](./asset/image-1.png)
 ## for alfajores testnet, you can click on `Add Celo Testnet `  in this [link](https://faucet.celo.org/alfajores) and approve adding the network when metamask popup shows up.
